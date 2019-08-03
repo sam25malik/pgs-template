@@ -1,0 +1,187 @@
+#navbar-res{
+    background: #00df70;
+    padding: 0px;
+}
+
+.navbar-brand{
+    background: white;
+  top: 0px;
+  left: 0px;
+    width: 14.5%;
+    height: 100px;
+
+}
+
+.navbar-brand img{
+    height: 70px;
+    width:70px;
+    padding-top: 10px;
+}
+
+#navbar-ul{
+    padding-right: 600px;
+}
+
+
+#navbar-ul li{
+    padding-right: 15px;
+}
+
+
+@media only screen and (max-width: 650px) {
+ #navbar-ul{
+    padding-right: 0px;
+    padding-top: 10px;
+}
+    .navbar-brand{
+    background: white;
+  top: 0px;
+  left: 0px;
+    width: 25%;
+    height: 100px;
+
+}
+    
+    .navbar-brand img{
+    height: 70px;
+    width:100px;
+    padding-top: 10px;
+}
+    
+    .service{
+        padding: 10px !important;
+    }
+    #service-1{
+        padding-bottom: 20px;
+    }
+    .counter{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    
+    #contact-phone{
+        padding-left: 0px !important;
+        text-align: center !important
+    }
+    
+    .address{
+        text-align: center !important
+    }
+    .address p{
+        text-align: center !important;
+        margin-left: -20px !important;
+    }
+    .terms{
+        padding-left: 0px !important;
+        text-align: center !important;
+        margin-left: -20px !important;
+    }
+    
+}
+
+
+#live-chat{
+    color:white;
+    margin-left:-40px;
+}
+
+#up-arrow{
+    color:white;
+    margin-left:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.social-icons{
+    background:#00df70;
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#navbar-res li a{
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.terms{
+    padding-top: 35px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.terms li{
+    padding-bottom: 15px;
+}
+
+.terms a{
+    color: #a1a1a1;
+}
+
+.terms a:hover{
+    color: #00df70;
+}
+
+.address{
+    padding-top: 35px;
+    color: #a1a1a1;
+    text-align: left;
+
+}
+
+.address a i{
+    padding-left: 5px;
+}
+
+#contact-phone{
+    text-align: left;
+    padding-left: 200px;
+}
+
+#contact-phone u{
+text-decoration-color: #00df70;
+margin-top: 5px;
+height: 10px;
+}
+
+.social-slider{
+    padding-bottom: 20px;
+}
+
+
+.social-slider img{
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+    margin-top: -20px;
+}
+
+.heading-service{
+    color: #a1a1a1;
+    font-weight: 600;
+}
+
+#contact-phone a{
+    color: #a1a1a1;
+}
+
+#all_service{
+    color:white;
+}
+
+
+
+@media only screen and (max-width:900px) and (min-width: 750px) {
+   #contact-phone {
+        text-align: middle !important;
+        padding-left: 50px !important;
+    }
+    .terms{
+        padding-left: 0px !important;
+    }   
+    #live-chat{
+        margin-left: -140px !important;
+    }
+}
